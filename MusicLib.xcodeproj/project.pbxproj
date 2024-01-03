@@ -45,6 +45,7 @@
 		CC8DD5602B45100C004C396C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC8DD5622B45100C004C396C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC8DD5662B453ACF004C396C /* MusicLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicLib.swift; sourceTree = "<group>"; };
+		CC8DD5682B453EEA004C396C /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .travis.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +77,7 @@
 		CC8DD52A2B450F53004C396C = {
 			isa = PBXGroup;
 			children = (
+				CC8DD5682B453EEA004C396C /* .travis.yml */,
 				CC8DD5362B450F53004C396C /* MusicLib */,
 				CC8DD5422B450F53004C396C /* MusicLibTests */,
 				CC8DD5532B45100B004C396C /* MusicLibExample */,
