@@ -17,6 +17,7 @@
 		CC8DD55C2B45100B004C396C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC8DD55A2B45100B004C396C /* Main.storyboard */; };
 		CC8DD55E2B45100C004C396C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC8DD55D2B45100C004C396C /* Assets.xcassets */; };
 		CC8DD5612B45100C004C396C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC8DD55F2B45100C004C396C /* LaunchScreen.storyboard */; };
+		CC8DD5672B453ACF004C396C /* MusicLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8DD5662B453ACF004C396C /* MusicLib.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		CC8DD55D2B45100C004C396C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC8DD5602B45100C004C396C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC8DD5622B45100C004C396C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC8DD5662B453ACF004C396C /* MusicLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicLib.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				CC8DD5372B450F53004C396C /* MusicLib.h */,
 				CC8DD5382B450F53004C396C /* MusicLib.docc */,
+				CC8DD5662B453ACF004C396C /* MusicLib.swift */,
 			);
 			path = MusicLib;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC8DD5392B450F53004C396C /* MusicLib.docc in Sources */,
+				CC8DD5672B453ACF004C396C /* MusicLib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,6 +495,7 @@
 		CC8DD54C2B450F53004C396C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -506,6 +511,7 @@
 		CC8DD54D2B450F53004C396C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
