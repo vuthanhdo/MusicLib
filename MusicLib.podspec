@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "MusicLib"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.1"
   spec.summary      = "A CocoaPods for Music ideal written in Swift"
   spec.description  = <<-DESC
 This CocoaPods library helps you create function, game for music note and chords learning
